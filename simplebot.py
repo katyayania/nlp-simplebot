@@ -5,8 +5,12 @@ from datetime import datetime
 from tkinter import *
 
 
-# Generating response
+import os
+import openai
+openai.api_key=os.getenv('OPENAI_KEY')
 
+
+# WRITE YOUR CODE HERE
 
 # Generating response
 def get_bot_response(user_input):
